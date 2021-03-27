@@ -1,0 +1,348 @@
+
+.Detials{
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+}
+.Detials-section-one{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin: 1rem;
+   column-gap: 0.5rem;
+}
+.Detials-section-one div{
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+.add-new-pic{
+    position: relative;
+    border: 1px dashed rgb(143, 139, 139);
+    border-radius: 20px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.add-img{
+    width: 230px;
+    max-width: 100%;
+   height: 130px;
+   border-radius: 20px;
+}
+
+/*--section-one--*/
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:#f7f8fa;
+    padding-bottom: 100px;
+    position: relative;
+}
+.wrapper-section-left{
+    border-right: 1px solid lightgray;
+    padding: 30px;
+    text-align: left;
+}
+
+.label-input-divs-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: left;
+}
+#pure-input{
+    width: 260px;
+    max-width: 100%;
+    padding: 6px 10px;
+    border:1px solid rgb(231, 229, 229);
+}
+.country-dropdown{
+    width: 140px;
+    max-width: 100%;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-top: 5px;
+    padding:7px 0px;
+    border: 1px solid rgb(231, 228, 228);
+}
+.country-dropdownn{
+    width: 285px;
+    max-width: 100%;
+    margin-bottom: 5px;
+    margin-left: 22px;
+    margin-right: 0px;
+    margin-top: 5px;
+    padding:7px 5px;
+    border: 1px solid rgb(231, 228, 228);
+}
+.label-input-divs-wrapper-div-22{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-right: 180px;
+}
+
+.logo-upload{
+    width: 40px;
+    height: 40px;
+    max-width: 100%;
+    border: 1px dashed lightgray ;
+    margin-right: 10px;
+}
+.int-phone{
+    width: 280px;
+}
+
+
+/*--business-information--*/
+
+.opening-times-sub-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.opening-times-sub-wrapper-two{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    width: 250px;
+    max-width: 100%;
+    border-radius: 7px;
+}
+.opening-times-sub-wrapper-time-inputt{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
+.opening-times-sub-wrapper-time-inputt input{
+    border: 1px solid lightgray;
+    padding: 9px;
+    width: 100px;
+    max-width: 100%;
+    box-shadow: 2px 2px 7px lightgray;
+    border-radius: 7px;
+}
+
+.opening-times-sub-wrapper-time-input{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+.opening-times-sub-wrapper-time-input  input{
+    border: 1px solid lightgray;
+    padding: 9px;
+    box-shadow: 2px 2px 7px lightgray;
+    border-radius: 7px;
+}
+.day-check{
+    margin-right: 5px;
+   
+}
+
+
+/*--wraper-section-left--*/
+
+.wrapper-section-right{
+    padding: 30px;
+    text-align: left;
+}
+.wrapper-section-right-divs-sub-wrapper{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+}
+.Main-category{
+    width: 288px;
+    max-width: 100%;
+    padding: 8px;
+    border: 1px solid rgb(240, 240, 240);
+}
+.text-area-discrp{
+    width: 272px;
+    max-width: 100%;
+    padding: 8px 8px 50px 8px;
+    border: 1px solid rgb(240, 240, 240);
+}
+.right-sub-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.right-sub-wrapper-div-box{
+    background-color: white;
+    padding: 8px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 127px;
+}
+.tips-commission{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.country-dropdon{
+    width: 145px;
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid rgb(240, 240, 240);
+}
+.min-amount{
+ width: 125px;
+ padding: 8px;
+ border: 1px solid rgb(240, 240, 240);
+}
+
+/*--extra-detials--*/
+
+.social-channel-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.social-channel-div input{
+    width: 288px;
+    max-width: 100%;
+    padding: 8px;
+    border: 1px solid rgb(240, 240, 240);
+}
+.final-save-btn{
+    margin-top: -70px;
+    position: absolute;
+    margin-left: -6rem;
+    padding: 10px;
+    width: 200px;
+    max-width: 100%;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/*--below-about-responsive-for tablet--*/
+
+@media only screen and (max-width: 800px){
+    .Detials{
+        max-width: 100%;
+    }
+
+    /*--add-image-section--*/
+
+    .wrapper{
+        display: block;
+      max-width: 100%;
+      padding: 50px 20px;
+    }
+    .wrapper-section-left{
+        border-right: none;
+        padding: 30px;
+        text-align: left;
+    }
+    #pure-input{
+        width: 130px;
+    }
+    .country-dropdown{
+        width: 73px;
+        padding: 6px;
+        font-size: 12px;
+    }
+    .label-input-divs-wrapper-div-22{
+        margin-right: 60px;
+    }
+    .logo-upload{
+        max-width: 100%;
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    .int-phone{
+        max-width: 100%;
+        width: 145px;
+    }
+
+    /*--business-information--*/
+
+    .opening-times-sub-wrapper-two{
+        width: 130px;  
+        max-width: 100%;
+    }
+    .opening-times-sub-wrapper-time-inputt{
+        grid-gap: 5px;
+    }
+    .opening-times-sub-wrapper-time-inputt input{
+        padding: 5px 10px;
+        width: 40px;
+    }
+    
+    .opening-times-sub-wrapper-time-input{
+        column-gap: 5px;
+    }
+    .opening-times-sub-wrapper-time-input  input{
+        padding: 5px;
+    }
+    .day-check{
+        margin-right: 3px;
+    }
+    .wrapper-section-left{
+        padding: 10px;
+    }
+    /*--left-wrapper-responsive--*/
+
+    .wrapper-section-right{
+        padding: 10px;
+        max-width: 100%;
+    }
+    .Main-category{
+        width: 145px;
+        padding: 7px;
+    }
+    .text-area-discrp{
+        width: 129px;
+        padding: 7px 7px 30px 7px;
+    }
+    .right-sub-wrapper{
+        grid-template-columns: 100%;
+    }
+   
+    .tips-commission{
+       grid-template-columns: 100%;
+    }
+    
+    .country-dropdon{
+        margin-bottom: 5px;
+    }
+    .min-amount{
+     padding: 8px 9px;
+    }
+
+    /*--extra-detials-for responsive--*/
+
+    .social-channel-div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .social-channel-div input{
+        width: 127px;
+        max-width: 100%;
+        padding: 7px;
+        font-size: 12px;
+        border: 1px solid rgb(240, 240, 240);
+    }
+    .final-save-btn{
+        margin-top: -40px;
+    }
+}
+
+
+

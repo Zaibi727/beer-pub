@@ -1,0 +1,10 @@
+
+.app-div{
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+
+/*--responsive-for tablet--*/
+

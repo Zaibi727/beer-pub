@@ -1,0 +1,211 @@
+
+.profile-img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.SideOne-section-div{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    height: 1600px;
+}
+.SideOne-section-div ul{
+    list-style: none;
+    margin-top: 40px;
+    padding-left: 0px;
+    text-align: center;
+}
+.side-one-ul-1 li{
+    margin-bottom: 40px;
+    color: white;
+}
+.sideone-add-btn button{
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    background-color: black;
+}
+.tri-btn{
+    background-color: black;
+    border: none;
+    padding: 8px;
+}
+#add-sign{
+    color: white;
+}
+
+/*--ul-top-one--*/
+
+.sideone-ul-2 li{
+  color: rgb(211, 194, 194);
+  margin-bottom: 15px;
+}
+.expand-sign{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+.modal-1{
+    width: 150px;
+    max-width: 100%;
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 3px;
+    box-shadow: 2px 2px 10px rgb(121, 115, 115);
+}
+.modal-one-section{
+    padding: 10px;
+
+}
+
+#modal-1-div-1{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.modal-one-section-div-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.modal-1-text{
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+/*--modal-one--*/
+.modal-2{
+    width: 150px;
+    max-width: 100%;
+    position: absolute;
+    left: 60px;
+    bottom: 150px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid white;
+    border-radius: 3px;
+    box-shadow: 2px 2px 10px rgb(94, 90, 90);
+}
+.modal-2-section{
+    padding: 10px;
+}
+.modal-2-section div{
+    margin-bottom: 15px;
+}
+#modal-2-icon{
+    margin-right: 10px;
+}
+/*--for toggle-button--*/
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(235, 229, 229);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #0a0a0a;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+
+/*--below about responsive for tablet view--*/
+
+@media only screen and (max-width: 780px){
+    .SideOne{
+        max-width: 100%;
+    }
+    .profile-img{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    .tri-btn{
+        font-size: 12px;
+    }
+    .sideone-add-btn button{
+        padding: 5px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        background-color: black;
+    }
+    #add-sign{
+        font-size: 14px;
+    }
+    .expand-sign{
+        padding: 5px;
+    }
+    .modal-2{
+        width: 150px;
+        max-width: 100%;
+        position: absolute;
+        left: 60px;
+        top: 80px;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid white;
+        border-radius: 3px;
+        box-shadow: 2px 2px 10px rgb(94, 90, 90);
+    }
+}
+
+

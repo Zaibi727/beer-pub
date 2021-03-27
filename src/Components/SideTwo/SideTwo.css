@@ -1,0 +1,93 @@
+
+.SideTwo{
+    padding: 0px 25px;
+    max-width: 100%; 
+    border-right: 1px solid  lightgray;
+}
+.SideTwo-section{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 1600px;
+}
+.side-two-icon{
+    margin-right: 20px;
+}
+.SideTwo-section ul{
+   list-style: none;
+   padding: 0px; 
+}
+.SideTwo-section-ul-1 li{
+    margin-bottom: 35px;
+    font-size: 14px;
+    color: #949494;
+}
+.SideTwo-section-ul-2 li{
+    margin-bottom: 15px;
+}
+.country-dropdownnn{
+    border:  none;
+    color: gray;
+    padding: 0px 15px;
+    margin-right: 30px;
+}
+.dd-lable{
+    margin-bottom: -2px;
+    color: black !important;
+}
+
+/*--sidetwi-ul-1--*/
+
+.people-profile{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 1px;
+}
+.sidetwo-invite-btn{
+    padding: 7px 45px;
+    border-radius: 7px;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+
+/*--below-about responsive for tablet--*/
+
+@media only screen and (max-width: 780px){
+    .SideTwo{
+        max-width: 100%;
+        padding: 0px 15px;
+    }
+    .hidden{
+        visibility: hidden;
+        position: absolute;
+    }
+    .country-dropdownnn{
+        width: 100px;
+        max-width: 100%;
+        margin-right: 0px;
+        padding: 0px;
+        margin-left: -10px;
+    }
+    .SideTwo-section{
+        padding: 5px;
+    }
+    .SideTwo-section ul{
+        list-style: none;   
+    }
+    .people-profile{
+        visibility: hidden;
+    }
+    .sidetwo-invite-btn{
+        padding: 7px;
+        margin-right: 30px;
+        border-radius: 7px;
+        background-color: white;
+        border: 1px solid lightgray;
+    }
+}
+
+/*--below-for 1200px--*/
