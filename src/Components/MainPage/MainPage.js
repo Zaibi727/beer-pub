@@ -15,9 +15,9 @@ class MainPage extends React.Component {
                 <section className="Main-page-section">
                       <Router>
                           <TopNav />
+                          <Details />
                           <Switch>
                                <Route path="/accounting" component={Accounting}/>
-                               <Route path="/detials" component={Detials}/>
                                <Route path="/plans" component={Plans}/>
                                <Route path="/team" component={Team}/>
                           </Switch>
