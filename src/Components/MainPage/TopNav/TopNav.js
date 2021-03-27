@@ -16,7 +16,7 @@ class TopNav extends React.Component {
                 <section className="TopNav-section-two">
                     <ul>
                         <NavLink className="Link" to="/detials" activeClassName="active">
-                            <li><a>Detials</a></li>
+                            <li><a>Details</a></li>
                         </NavLink>
                         <NavLink className="Link" to="/team" activeClassName="active">
                             <li><a>Team</a></li>
