@@ -13,7 +13,7 @@ function Detials () {
                 <section className="Detials-section-one">
                   <div> 
                        <button type="button" className="add-new-pic">
-                          <i class="fa fa-camera"></i>
+                          <i class="fa fa-plus"></i>
                          <p>Add new<br></br>picture</p>
                        </button>   
                   </div>
@@ -36,7 +36,7 @@ function Detials () {
                                          <label className="label-left">Business logo</label>
                                        </div>
                                         <div className="label-input-divs-wrapper-div-22">
-                                          <button type="button" className="logo-upload" ><i class="fa fa-plus"></i></button>
+                                          <button type="button" className="logo-upload" ><i class="fa fa-camera"></i></button>
                                           <p>Upload</p>   
                                         </div>                                                               
                                   </div>
