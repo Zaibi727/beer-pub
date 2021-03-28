@@ -5,15 +5,15 @@
     text-align: center;
 }
 .Detials-section-one{
-    display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   margin: 1rem;
-   column-gap: 0.5rem;
+  display: flex;
+  justify-content: left;
+  padding: 20px;
 }
 .Detials-section-one div{
     width: 100%;
     max-width: 250px;
     height: auto;
+    margin-right: 1rem;
 }
 .add-new-pic{
     position: relative;
@@ -22,13 +22,15 @@
     padding: 0;
     width: 100%;
     height: 100%;
+    background-color: white !important;
+    color: lightgrey;
 }
 
 .add-img{
-    width: 230px;
+    width: 250px;
     max-width: 100%;
-   height: 130px;
-   border-radius: 20px;
+   height: 100%;
+   border-radius: 15px;
 }
 
 /*--section-one--*/
@@ -57,6 +59,7 @@
     width: 260px;
     max-width: 100%;
     padding: 6px 10px;
+    border-radius: 3px;
     border:1px solid rgb(231, 229, 229);
 }
 .country-dropdown{
@@ -67,6 +70,7 @@
     margin-right: 0px;
     margin-top: 5px;
     padding:7px 0px;
+    border-radius: 3px;
     border: 1px solid rgb(231, 228, 228);
 }
 .country-dropdownn{
@@ -83,18 +87,21 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    margin-right: 180px;
+    margin-right: 170px;
 }
 
 .logo-upload{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     max-width: 100%;
     border: 1px dashed lightgray ;
+    background-color:  white !important;
+    color:  lightgrey;
     margin-right: 10px;
 }
 .int-phone{
     width: 280px;
+    max-width: 100%;
 }
 
 
@@ -111,7 +118,7 @@
     padding: 15px;
     width: 250px;
     max-width: 100%;
-    border-radius: 7px;
+    border-radius: 3px;
 }
 .opening-times-sub-wrapper-time-inputt{
     display: grid;
@@ -121,10 +128,10 @@
 }
 .opening-times-sub-wrapper-time-inputt input{
     border: 1px solid lightgray;
+    border-radius: 3px;
     padding: 9px;
     width: 100px;
     max-width: 100%;
-    border-radius: 7px;
 }
 
 .opening-times-sub-wrapper-time-input{
@@ -135,12 +142,13 @@
 .opening-times-sub-wrapper-time-input  input{
     border: 1px solid lightgray;
     padding: 9px;
-    border-radius: 7px;
+    border-radius: 3px;
 }
 .day-check{
-    margin-right: 5px;
-   
+    margin-right: 5px; 
 }
+
+
 
 
 /*--wraper-section-left--*/
@@ -159,12 +167,14 @@
     width: 288px;
     max-width: 100%;
     padding: 8px;
+    border-radius: 3px;
     border: 1px solid rgb(240, 240, 240);
 }
 .text-area-discrp{
     width: 272px;
     max-width: 100%;
     padding: 8px 8px 50px 8px;
+    border-radius: 3px;
     border: 1px solid rgb(240, 240, 240);
 }
 .right-sub-wrapper{
@@ -181,6 +191,7 @@
     justify-content: space-between;
     align-items: center;
     width: 127px;
+    border-radius: 3px;
 }
 .tips-commission{
     display: grid;
@@ -190,11 +201,13 @@
     width: 145px;
     padding: 8px;
     margin-right: 5px;
+    border-radius: 3px;
     border: 1px solid rgb(240, 240, 240);
 }
 .min-amount{
  width: 125px;
  padding: 8px;
+ border-radius: 3px;
  border: 1px solid rgb(240, 240, 240);
 }
 
