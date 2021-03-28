@@ -124,7 +124,6 @@
     padding: 9px;
     width: 100px;
     max-width: 100%;
-    box-shadow: 2px 2px 7px lightgray;
     border-radius: 7px;
 }
 
@@ -136,7 +135,6 @@
 .opening-times-sub-wrapper-time-input  input{
     border: 1px solid lightgray;
     padding: 9px;
-    box-shadow: 2px 2px 7px lightgray;
     border-radius: 7px;
 }
 .day-check{
