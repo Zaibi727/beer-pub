@@ -103,6 +103,12 @@
     width: 280px;
     max-width: 100%;
 }
+.PhoneInputInput{
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 7px 0px;
+    position: relative;
+}
 
 
 /*--business-information--*/
