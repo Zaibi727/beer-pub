@@ -13,7 +13,7 @@ function Detials () {
                 <section className="Detials-section-one">
                   <div> 
                        <button type="button" className="add-new-pic">
-                          <i class="fa fa-plus"></i>
+                          <i class="fa fa-camera"></i>
                          <p>Add new<br></br>picture</p>
                        </button>   
                   </div>
